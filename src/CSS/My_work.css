@@ -1,0 +1,199 @@
+.My_work{
+  padding: 80px 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+  .My_work .item{
+    width: 400px;
+    height: 265px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: solid 5px #fff;
+    position: relative;
+    transition: transform 200ms ease-in-out;
+
+    -webkit-box-shadow: 10px 10px 20px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 20px -6px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 20px -6px rgba(0,0,0,0.75);
+  }
+
+    .My_work .item .image{
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }.My_work .item .image:hover img{
+      transform: scale(1.2);
+    }
+
+      .My_work .item .image img{
+        width: 100%;
+        height: 100%;
+        transition: transform 200ms ease-in-out;
+      }
+      .My_work .item .image .title{
+        position: absolute;
+        top: 20px;
+        left: 20px
+      }
+      .My_work .item .image .title h3{
+        color: #fff;
+        font-size: 25px;
+      }
+
+      .My_work .item .image .container{
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.7);
+
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }.My_work .item .image:hover > .container{
+        background-color: rgba(0, 0, 0, 0.7);
+      }
+
+        .My_work .item .image .container h3{
+          font-size: 25px;
+          border-bottom: solid 2px #fff;
+        }
+
+        .My_work .item .image .container .btn{}
+        .My_work .item .image .container .btn button{
+          color: #000;
+          border: solid 2px #fff;
+          background-color: #fff;
+        }.My_work .item .image .container .btn button:hover{
+          color: #fff;
+          border: solid 2px #fff;
+          background-color: transparent;
+        }
+
+    .My_work .item .content{
+      color: #000;
+      padding: 10px 10px 25px 10px;
+      overflow: hidden;
+      background-color: #fff;
+      transform: translateY(100%);
+      transition: all 200ms ease-in-out;
+
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }.My_work .item .show{
+      transform: translateY(0);
+    }
+
+      .My_work .item .content i{
+        cursor: pointer;
+        float: right;
+        font-size: 25px
+      }
+
+      .My_work .item .content .title{
+        font-size: 30px;
+        padding: 5px 0;
+        display: inline-block;
+        border-bottom: solid 1px #000;
+      }
+
+      .My_work .item .content .gauge{
+
+      }
+
+        .My_work .item .content .gauge small{
+          font-size: 10px;
+        }
+
+        .My_work .item .content .gauge .level{
+          width: 150px;
+          border-bottom: 2px solid #ccc;
+        }
+        .My_work .item .content .gauge .level div#cms{
+          width: 70%;
+          height: 2px;
+          background-color: blue;
+        }
+        .My_work .item .content .gauge .level div#web{
+          width: 20%;
+          height: 2px;
+          background-color: blue;
+        }
+        .My_work .item .content .gauge .level div#form{
+          width: 40%;
+          height: 2px;
+          background-color: blue;
+        }
+        .My_work .item .content .gauge .level div#lunch{
+          width: 80%;
+          height: 2px;
+          background-color: blue;
+        }
+        .My_work .item .content .gauge .level div#meetup{
+          width: 85%;
+          height: 2px;
+          background-color: blue;
+        }
+        .My_work .item .content .gauge .level div#oauth{
+          width: 65%;
+          height: 2px;
+          background-color: blue;
+        }
+        .My_work .item .content .gauge .level div#robo{
+          width: 50%;
+          height: 2px;
+          background-color: blue;
+        }
+        .My_work .item .content .gauge .level div#todo{
+          width: 30%;
+          height: 2px;
+          background-color: blue;
+        }
+        .My_work .item .content .gauge .level div#blog{
+          width: 85%;
+          height: 2px;
+          background-color: blue;
+        }
+
+      .My_work .item .content p{
+        padding: 10px 0;
+      }
+
+/* Desktops and laptops ----------- */
+@media only screen  and (max-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (max-width : 1824px) {
+/* Styles */
+}
+
+@media only screen and (max-width: 900px) {
+
+}
+
+@media only screen and (max-width: 400px) {
+  .My_work .item{
+    width: 100%;
+    height: 355px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}

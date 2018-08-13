@@ -1,0 +1,106 @@
+.Javascript{
+  color: #fff;
+  width: 100%;
+  /* height: 400px; */
+  display: flex;
+  flex-direction: row;
+}
+
+  .Javascript .info{
+    width: 30%;
+    padding: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2A282A;
+  }
+
+    .Javascript .info h2{
+      font-size: 45px;
+      font-weight: 200;
+      padding: 20px 0;
+    }
+
+    .Javascript .info .text{
+      font-size: 20px;
+      padding-bottom: 20px;
+    }
+
+    .Javascript .info .btn button{
+      color: #444;
+      background-color: #fff;
+      border: solid 1px #fff;
+
+      -webkit-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.24);
+      -moz-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.24);
+      box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.24);
+    }.Javascript .info .btn button:hover{
+      color: #fff;
+      background-color: transparent;
+      border: solid 1px #fff;
+    }
+
+  .Javascript .image{
+    width: 70%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/splash-3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+    .Javascript .image img{
+      width: 35%;
+      margin: auto 0;
+      transform: translateX(235%);
+      transition: all 500ms ease-in-out;
+    }
+
+@media only screen  and (max-width : 1824px) {
+
+}
+
+@media only screen  and (max-width : 1224px) {
+
+}
+
+@media only screen and (max-width: 900px) {
+  .Javascript{
+    height: auto;
+    flex-direction: column;
+  }
+  .Javascript .info{
+    width: 100%;
+  }
+  .Javascript .image{
+    width: 100%;
+    height: 300px;
+  }
+  .Javascript .image img{
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Javascript .image img{
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width : 370px) {
+  .Javascript .image img{
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width : 320px) {
+  .Javascript .image img{
+    width: 70%;
+  }
+}

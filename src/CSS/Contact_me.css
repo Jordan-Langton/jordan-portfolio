@@ -1,0 +1,199 @@
+/* -=-=-=-=-=-=-=-=- Global -=-=-=-=-=-=-=-=- */
+.Contact_me{
+  color: #000;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.Contact_me .contact_form {
+  color: #fff;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./images/contact-bg.jpg');
+}
+  .Contact_me .contact_form h3{
+    color: #FFCF1B;
+    font-size: 25px;
+    padding: 10px 0;
+  }
+  .Contact_me .contact_form p{
+    color: #FFCF1B;
+    font-size: 16px;
+  }
+
+/* -=-=-=-=-=-=-=-=- form -=-=-=-=-=-=-=-=- */
+
+  .Contact_me .contact_form .form{
+    width: 70%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .Contact_me .contact_form .form input{
+    color: #C69C00;
+    width: 60%;
+    padding: 10px 5px;
+    margin-top: 20px;
+    background-color: transparent;
+    border-bottom: solid 1px #C69C00;
+  }
+  .Contact_me .contact_form .form textarea{
+    color: #C69C00;
+    width: 62%;
+    margin-top: 60px;
+    background-color: transparent;
+    border-bottom: solid 1px #C69C00;
+  }
+  .Contact_me .contact_form .error{
+    padding: 10px 0;
+    width: 80%;
+    text-align: center;
+    display: inline-block;
+  }
+    .Contact_me .contact_form .error .text{
+      color: #FFCF1B;
+      font-size: 13px;
+    }
+  .Contact_me .contact_form .buttons{
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+  }
+  .Contact_me .contact_form .buttons .btn{
+    width: 100%;
+    padding: 20px 5px;
+  }
+
+  .Contact_me .contact_form .buttons .btn button{
+    color: #000;
+    width: 100%;
+    font-weight: bold;
+    border: solid 1px #C69C00;
+    background-color: #C69C00;
+  }
+
+  .Contact_me .contact_form .buttons .btn button:hover{
+    color: #C69C00;
+    background-color: transparent;
+    border: solid 1px #C69C00;
+  }
+
+/* -=-=-=-=-=-=-=-=- Info -=-=-=-=-=-=-=-=- */
+
+.Contact_me .contact_info{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  .Contact_me .contact_info h3{
+    font-size: 40px;
+    border-bottom: solid 1px #000;
+  }
+  .Contact_me .contact_info h4{
+    font-size: 25px;
+    border-bottom: solid 1px #000;
+  }
+  .Contact_me .contact_info .info{
+    padding: 30px;
+  }
+    .Contact_me .contact_info .info .contact{
+      padding: 5px 10px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+      .Contact_me .contact_info .info .contact i{
+        color: #0A6194;
+        width: 38px;
+        font-size: 30px;
+        padding: 0 10px;
+      }
+  .Contact_me .contact_info .follow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+    .Contact_me .contact_info .follow .icon{
+      width: 12%;
+      padding: 20px 0;
+    }
+      .Contact_me .contact_info .follow .icon img{
+        width: 100%;
+        border-radius: 50%;
+        transition: all 200ms ease-in-out;
+      }.Contact_me .contact_info .follow .icon img:hover {
+        -webkit-box-shadow: 5px 12px 39px -8px rgba(0,0,0,0.75);
+        -moz-box-shadow: 5px 12px 39px -8px rgba(0,0,0,0.75);
+        box-shadow: 5px 12px 39px -8px rgba(0,0,0,0.75);
+      }
+
+
+
+/* -=-=-=-=-=-=-=-=- MEDIA QUERIES -=-=-=-=-=-=-=-=- */
+
+/* Large screens */
+@media only screen  and (max-width : 1824px) {
+/* Styles */
+}
+
+/* Desktops and laptops */
+@media only screen  and (max-width : 1224px) {
+
+}
+
+/* Tablets */
+@media only screen and (max-width: 900px) {
+  .Contact_me{
+    height: auto;
+    padding-top: 50px;
+    flex-direction: column-reverse;
+  }
+  .Contact_me .contact_form {
+    width: 100%;
+    padding-top: 30px;
+    box-sizing: border-box;
+  }
+  .Contact_me .contact_info {
+    width: 100%;
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+
+}
+
+@media only screen and (max-width: 500px) {
+
+}
+
+@media only screen and (max-width: 430px) {
+  .Contact_me .contact_form {
+    width: 100%;
+  }
+  .Contact_me .contact_form form{
+    width: 100%;
+  }
+  .Contact_me .contact_form form input{
+    width: 90%;
+  }
+  .Contact_me .contact_form form textarea{
+    width: 90%;
+  }
+}
+
+/* Smartphones */
+@media only screen and (max-width: 375px) {
+
+}

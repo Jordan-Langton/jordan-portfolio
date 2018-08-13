@@ -1,0 +1,438 @@
+/* -=-=-=-=-=-=-=-=- Global -=-=-=-=-=-=-=-=- */
+.About_me{
+  color: #000;
+  width: 100%;
+  text-align: center;
+  padding: 120px 20px 80px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #fff;
+}
+
+  .About_me h3{
+    font-size: 30px;
+    padding: 5px 0;
+    display: inline-block;
+    border-bottom: 2px solid #1C1C78;
+  }
+
+/* -=-=-=-=-=-=-=-=- Info Section -=-=-=-=-=-=-=-=- */
+  .About_me .info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+    .About_me .personal{
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .About_me .personal p{
+      padding: 20px 0;
+    }
+
+    .About_me .info .image{
+      width: 23%;
+    }
+
+      .About_me .info .image .icon{
+        display: block;
+        border-radius: 50%;
+        background-color: #1C1C78;
+      }
+        .About_me .info .image .icon img{
+          width: 100%;
+          border-radius: 50%;
+          transform: translate(-50px,-20px);
+
+          -webkit-box-shadow: 10px 10px 20px -6px rgba(0,0,0,0.75);
+          -moz-box-shadow: 10px 10px 20px -6px rgba(0,0,0,0.75);
+          box-shadow: 10px 10px 20px -6px rgba(0,0,0,0.75);
+        }
+
+/* -=-=-=-=-=-=-=-=- All Sections -=-=-=-=-=-=-=-=- */
+    .About_me .sections{
+      padding-top: 10%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+/* -=-=-=-=-=-=-=-=- Work experience -=-=-=-=-=-=-=-=- */
+      .About_me .sections .experience{
+        width: 80%;
+        padding: 30px 0;
+      }
+
+        .About_me .sections .experience .job{
+          color: #000;
+          padding: 30px 0;
+          margin-bottom: 30px;
+          display: flex;
+          flex-direction: row;
+          background-color: #fff;
+          border-bottom: solid 1px #ccc;
+          transition: all 150ms ease-in;
+        }.About_me .sections .experience .job:hover{
+          transform: scale(1.05);
+          border: solid 1px #ccc;
+
+          -webkit-box-shadow: 5px 12px 39px -8px rgba(0,0,0,0.75);
+          -moz-box-shadow: 5px 12px 39px -8px rgba(0,0,0,0.75);
+          box-shadow: 5px 12px 39px -8px rgba(0,0,0,0.75);
+        }
+
+          .About_me .sections .experience .job .image{
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .About_me .sections .experience .job .image img{
+            width: 60%;
+          }
+
+          .About_me .sections .experience .job .text{
+            width: 60%;
+            padding: 0 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+          }
+          .About_me .sections .experience .job .right{
+            width: 60%;
+            margin-left: 10%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+          }
+
+          .About_me .sections .experience .job .text h4{
+            font-size: 40px;
+            padding: 5px 0;
+            text-align: left;
+            border-bottom: solid 1px #1C1C78;
+          }
+
+          .About_me .sections .experience .job .text small{
+            padding: 10px 0;
+          }
+
+          .About_me .sections .experience .job .text p{
+            width: 80%;
+            text-align: left;
+          }
+          .About_me .sections .experience .job .right p{
+            width: 90%;
+            text-align: left;
+          }
+
+          .About_me .sections .experience .job h5{
+            font-size: 20px;
+            padding: 5px 0;
+            border-bottom: solid 1px #1C1C78;
+          }
+
+          .About_me .sections .experience .job ul{
+            width: 90%;
+            padding: 5px 20px;
+            text-align: left;
+          }
+          .About_me .sections .experience .job .right ul{
+            width: 90%;
+            padding: 5px 20px;
+            text-align: left;
+          }
+
+          .About_me .sections .experience .job ul li{
+            list-style-type: circle;
+            list-style-position: outside;
+          }
+
+          .About_me .sections .experience .job .contact{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+          }
+
+          .About_me .sections .experience .job .contact h5{
+            font-size: 20px;
+            padding: 5px 0;
+            border-bottom: solid 1px #1C1C78;
+          }
+
+          .About_me .sections .experience .job .contact ul{
+            width: 100%;
+            /* padding: 5px 20px; */
+            text-align: left;
+          }
+          .About_me .sections .experience .job .right .contact ul{
+            width: 100%;
+            padding: 5px 20px;
+            text-align: left;
+          }
+
+          .About_me .sections .experience .job .contact ul li{
+            list-style-type: circle;
+            list-style-position: outside;
+          }
+
+/* -=-=-=-=-=-=-=-=- Personal Education -=-=-=-=-=-=-=-=- */
+      .About_me .sections .education{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+        .About_me .sections .education h4{
+          font-size: 20px;
+          padding: 15px;
+          margin-top: 20px;
+          border-bottom: solid 1px #1C1C78;
+        }
+
+        .About_me .sections .education .courses{
+          width: 80%;
+          padding: 30px 20px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          flex-wrap: wrap;
+        }
+
+          .About_me .sections .education .courses .course{
+            color: #000;
+            width: 300px;
+            padding: 10px;
+            margin-bottom: 10px;
+            clear: both;
+            background-color: #fff;
+            text-align: left;
+            border: solid 1px #ccc;
+            display: flex;
+            flex-direction: row;
+
+            -webkit-box-shadow: 10px 10px 20px -6px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 20px -6px rgba(0,0,0,0.75);
+            box-shadow: 10px 10px 20px -6px rgba(0,0,0,0.75);
+          }
+
+          .About_me .sections .education .courses .course .image{
+            width: 20%;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+            .About_me .sections .education .courses .course .image img{
+              width: 100%;
+            }
+
+          .About_me .sections .education .courses .course .text{
+            width: 80%;
+            padding: 0 10px;
+            box-sizing: border-box;
+          }
+            .About_me .sections .education .courses .course .text h4{
+              font-size: 16px;
+              padding: 2px 0;
+              display: inline-block;
+            }
+            .About_me .sections .education .courses .course .text h4 a{
+              color: #000;
+            }
+            .About_me .sections .education .courses .course .text p{
+              padding: 2px 0;
+            }
+
+
+
+        .About_me .sections .education .school{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+          .About_me .sections .education .school h4{}
+          .About_me .sections .education .school h5{
+            padding: 20px 0;
+            font-size: 18px;
+          }
+          .About_me .sections .education .school .subjects{
+            width: 70%;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+          }
+          .About_me .sections .education .school .subjects .subject{
+            color: #fff;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 10px;
+            font-weight: 800;
+            background-color: #1C1C78;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            transition: background-color 200ms ease-in-out;
+          }
+
+          .About_me .sections .education .school .subjects #math{
+            background-color: #D81124;
+          }.About_me .sections .education .school .subjects #math:hover{
+            color: #D81124;
+            font-size: 20px;
+            background-color: #fff;
+          }
+
+          .About_me .sections .education .school .subjects #eng{
+            background-color: #7BAE39;
+          }.About_me .sections .education .school .subjects #eng:hover{
+            color: #7BAE39;
+            font-size: 20px;
+            background-color: #fff;
+          }
+
+          .About_me .sections .education .school .subjects #science{
+            background-color: #3194A3;
+          }.About_me .sections .education .school .subjects #science:hover{
+            color: #3194A3;
+            font-size: 20px;
+            background-color: #fff;
+          }
+
+          .About_me .sections .education .school .subjects #history{
+            background-color: #B4C445;
+          }.About_me .sections .education .school .subjects #history:hover{
+            color: #B4C445;
+            font-size: 20px;
+            background-color: #fff;
+          }
+
+/* -=-=-=-=-=-=-=-=- MEDIA QUERIES -=-=-=-=-=-=-=-=- */
+
+/* Large screens */
+@media only screen  and (max-width : 1824px) {
+/* Styles */
+}
+
+/* Desktops and laptops */
+@media only screen  and (max-width : 1224px) {
+
+}
+
+/* Tablets */
+@media only screen and (max-width: 900px) {
+  .About_me{
+    padding-top: 90px;
+  }
+  .About_me .info{
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .About_me .personal{
+    width: 100%;
+  }
+  .About_me .info .image{
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .About_me .info .image .icon{
+    background: #fff;
+  }
+  .About_me .info .image .icon img{
+    width: 30%;
+    transform: translate(0, 0);
+  }
+  .About_me .sections .experience .job{
+    flex-direction: column;
+    border: solid 1px #ccc;
+
+    -webkit-box-shadow: 5px 12px 39px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 12px 39px -8px rgba(0,0,0,0.75);
+    box-shadow: 5px 12px 39px -8px rgba(0,0,0,0.75);
+  }
+  .About_me .sections .experience .rev{
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .About_me .sections .experience .job .text{
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .About_me .sections .experience .job .text h4{
+    font-size: 30px;
+  }
+  .About_me .sections .experience .job .right{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .About_me .sections .experience .job .text p{
+    width: 70%;
+    font-size: 14px;
+    text-align: center;
+  }
+  .About_me .sections .experience .job .text ul{
+    width: 70%;
+    font-size: 14px;
+    text-align: center;
+  }
+  .About_me .sections .experience .job .image{
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .About_me .sections .experience .job .image img{
+    width: 30%;
+  }
+  .About_me .sections .experience .job .contact ul{
+    font-size: 12px;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+
+}
+
+@media only screen and (max-width: 500px) {
+  .About_me .info .image .icon img{
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .About_me .sections .experience{
+    width: 100%;
+  }
+}
+
+/* Smartphones */
+@media only screen and (max-width: 375px) {
+  .About_me .info .image .icon img{
+    width: 60%;
+  }
+}

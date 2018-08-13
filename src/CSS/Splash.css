@@ -1,0 +1,151 @@
+.Splash{
+  height: 100vh;
+  z-index: 500;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+
+  background-image: url('./images/splash/two/layer-1.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+  .Splash img.layer2{
+    width: 100%;
+    z-index: 502;
+
+    position: absolute;
+  }
+
+  .Splash img.layer3{
+    width: 100%;
+    z-index: 502;
+
+    position: absolute;
+  }
+
+  .Splash .info{
+    color: #fff;
+    width: 47%;
+    z-index: 503;
+    padding-left: 3%;
+    display: inline-block;
+    margin-left: 25%;
+    border-left: solid 5px #fff;
+    font-family: sans-serif,monospace;
+    /* transition: all 200ms ease-in-out; */
+  }
+
+  .Splash .info h1{
+    font-size: 35px;
+  }
+
+  .Splash .info p{
+    padding: 20px 0;
+    font-size: 20px;
+  }
+
+  .Splash .info .btn{
+    padding: 10px 20px 20px 0;
+  }
+
+  .Splash .info .btn button{
+    color: #000;
+    border: solid 2px #fff;
+    background-color: #fff;
+  }.Splash .info .btn button:hover{
+    color: #fff;
+    border: solid 2px #fff;
+    background-color: transparent;
+  }
+
+/* -=-=-=-=-=-=-=-=- MEDIA QUERIES -=-=-=-=-=-=-=-=- */
+
+/* Large screens */
+@media only screen  and (max-width : 1824px) {
+
+}
+
+/* Desktops and laptops */
+@media only screen  and (max-width : 1224px) {
+  .Splash img.layer1{
+    bottom: -10%;
+  }
+}
+
+/* Tablets */
+@media only screen and (max-width: 900px) {
+  .Splash .info{
+    width: 100%;
+    margin-left: 10%;
+    border-left: none;
+  }
+  .Splash img.layer2{
+    top: 15%;
+  }
+  .Splash img.layer3{
+    top: 15%;
+    right: 10%;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .Splash .info{
+    margin-left: 5%;
+  }
+  .Splash img.layer3{
+    right: 10%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .buttons{
+    justify-content: center;
+    align-items: center;
+  }
+  .buttons .btn button{
+    font-size: 18px;
+    padding: 10px 40px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .buttons .btn button{
+    font-size: 17px;
+    padding: 10px 40px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .Splash .info{
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+    border-left: none;
+  }
+  .Splash .info h1{
+    font-size: 28px;
+  }
+  .Splash .info p{
+    font-size: 16px;
+  }
+  .Splash .info .btn{
+    padding: 0;
+    margin: 0;
+  }
+  .Splash .info .buttons .btn:first-child{
+    margin-right: 10px;
+  }
+  .buttons .btn button{
+    font-size: 14px;
+    padding: 10px 40px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .buttons .btn button{
+    font-size: 13px;
+  }
+}

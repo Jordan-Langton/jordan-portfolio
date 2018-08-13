@@ -1,0 +1,98 @@
+.About{
+  color: #fff;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #7B2D26;
+}
+
+  .About .icon{
+    width: 20%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+    .About .icon img{
+      width: 100%;
+      border-radius: 50%;
+
+      -webkit-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.24);
+      -moz-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.24);
+      box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.24);
+    }
+
+  .About .about-me{
+    width: 40%;
+    color: #fff;
+    margin: auto 0;
+    padding: 30px 10px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+    .About .about-me h2{
+      font-size: 30px;
+      padding: 20px 10px;
+      position: relative;
+    }
+
+      .About .about-me h2:after{
+        left: 35%;
+        bottom: 8px;
+        width: 30%;
+        content: '';
+        position: absolute;
+        border-bottom: 3px solid #fff;
+      }
+
+    .About .about-me .text{
+      padding: 10px 10%;
+    }
+
+    .About .about-me .btn button{
+      color: #fff;
+      background-color: transparent;
+      border: solid 1px #fff;
+
+      -webkit-box-shadow: 9px 9px 5px -4px rgba(0,0,0,0.24);
+      -moz-box-shadow: 9px 9px 5px -4px rgba(0,0,0,0.24);
+      box-shadow: 9px 9px 5px -4px rgba(0,0,0,0.24);
+    }.About .about-me .btn button:hover{
+      color: #000;
+      background-color: #fff;
+    }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+@media only screen and (max-width: 375px) {
+
+}
+
+@media only screen and (max-width: 900px) {
+  .About{
+    height: auto;
+    flex-direction: column;
+  }
+  .About .about-me{
+    width: 100%;
+  }
+  .About .icon img{
+    display: none;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (max-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (max-width : 1824px) {
+/* Styles */
+}
